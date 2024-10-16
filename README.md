@@ -1,2 +1,2 @@
 # asa-bagui
-bagulhos de asa
+bagulhos de asa E
