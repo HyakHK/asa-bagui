@@ -13,11 +13,12 @@ CMD ["/usr/sbin/named","-g","-c","/etc/bind/named.conf","-u","bind"]
 
 
 
-
-
 #docker build -t ubuntu-bind .
 #docker run -d --name bind ubuntu-bind
 #docker exec -it bind bash
 
 #copiar arquivo do arquivo para fora
 #docker container cp bind:/etc/bind/named.conf.local . 
+
+#copiar arquivo para dentro do container
+#docker cp 95:/root/test.txt .
