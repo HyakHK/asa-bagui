@@ -1,15 +1,33 @@
 Passos iniciais apos criação do arquivo "Dockerfile"
 
 docker build -t (nome da imagem) (local Dockerfile)
+docker build -t <tagname> base_dir
+
 
 Imagem para container
-
 docker run -d --name (nome do container) (nome da imagem)
 
+--------------------------------------------------------------------------
 Rodar container pela CMD
-
 docker exec -it (nome do container) bash
 
+--------------------------------------------------------------------------
 sair da interface do container
 ctrl+d
 exit
+
+--------------------------------------------------------------------------
+listando
+imagens
+docker image ls
+
+containers
+docker ps -a
+--------------------------------------------------------------------------
+
+
+extras(a organizar)
+docker run -d -p 53:53/udp -p 53:53/tcp --name bind9 ubuntu-bind
+
+#olhar via dns
+nslookup www.asa.br 127.0.0.1
