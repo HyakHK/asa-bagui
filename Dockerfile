@@ -19,6 +19,7 @@ CMD ["/usr/sbin/named","-g","-c","/etc/bind/named.conf","-u","bind"]
 
 #copiar arquivo do arquivo para fora
 #docker container cp bind:/etc/bind/named.conf.local . 
+#docker cp 95:/root/test.txt .
 
 #copiar arquivo para dentro do container
-#docker cp 95:/root/test.txt .
+#docker cp file.txt 95:/root/ 

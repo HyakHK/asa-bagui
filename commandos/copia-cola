@@ -1,0 +1,6 @@
+obs:por id pode-se escrever o id parcial
+
+copiar container > maquina real
+docker container cp (nome-container):/(local-arquivo) (destino-maquina-real)
+docker cp (id-container):/(local-arquivo) (destino-maquina-real)
+

@@ -1,0 +1,15 @@
+Passos iniciais apos criação do arquivo "Dockerfile"
+
+docker build -t (nome da imagem) (local Dockerfile)
+
+Imagem para container
+
+docker run -d --name (nome do container) (nome da imagem)
+
+Rodar container pela CMD
+
+docker exec -it (nome do container) bash
+
+sair da interface do container
+ctrl+d
+exit
