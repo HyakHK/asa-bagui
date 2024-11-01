@@ -8,6 +8,17 @@ Imagem para container
 docker run -d --name (nome do container) (nome da imagem)
 
 --------------------------------------------------------------------------
+Listar containers
+docker ps -a
+
+Parar container
+docker stop (id)
+
+Remover container
+docker rm (id)
+
+
+--------------------------------------------------------------------------
 Rodar container pela CMD
 docker exec -it (nome do container) bash
 

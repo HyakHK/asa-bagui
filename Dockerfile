@@ -38,10 +38,3 @@ CMD ["/usr/sbin/named","-g","-c","/etc/bind/named.conf","-u","bind"]
 
 #comandos a colocar na lista
 
-#parar
-#docker stop (id)
-#remover
-#docker container rm (id)
-#listar
-#docker ps -a
-
