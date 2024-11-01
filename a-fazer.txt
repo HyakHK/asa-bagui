@@ -1,1 +1,7 @@
 feito
+
+
+links a acessar
+https://medium.com/@ppraveen2150/deploying-an-apache-web-server-in-a-docker-container-step-by-step-2-methods-d359e170d6ba
+
+referente a http
