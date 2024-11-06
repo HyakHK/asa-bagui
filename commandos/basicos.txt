@@ -7,6 +7,9 @@ docker build -t <tagname> base_dir
 Imagem para container
 docker run -d --name (nome do container) (nome da imagem)
 
+com porta(editar como exemplo a fazer)
+docker run -p 53:53/udp -p 53:53/tcp --name bind9 ubuntu-bind
+
 --------------------------------------------------------------------------
 Listar containers
 docker ps -a
@@ -29,6 +32,7 @@ exit
 
 --------------------------------------------------------------------------
 listando
+
 imagens
 docker image ls
 
@@ -38,7 +42,12 @@ docker ps -a
 
 
 extras(a organizar)
+
 docker run -d -p 53:53/udp -p 53:53/tcp --name bind9 ubuntu-bind
 
 #olhar via dns
 nslookup www.asa.br 127.0.0.1
+servidor a resolver/ servidor dns
+
+#limpeza de inativos
+docker system prune

@@ -38,3 +38,6 @@ CMD ["/usr/sbin/named","-g","-c","/etc/bind/named.conf","-u","bind"]
 
 #comandos a colocar na lista
 
+
+#copy web
+# docker run -p:80:80/tcp --name web nginx
