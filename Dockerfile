@@ -41,3 +41,10 @@ CMD ["/usr/sbin/named","-g","-c","/etc/bind/named.conf","-u","bind"]
 
 #copy web
 # docker run -p:80:80/tcp --name web nginx
+
+#ver servidor dns
+#dig (endereço)
+#
+#
+#
+#
