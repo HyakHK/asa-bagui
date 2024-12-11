@@ -3,7 +3,7 @@
 ; in www physical ip
 $TTL	604800
 @	IN	SOA	ns.asa.br. root.asa.br. (
-			      2		; Serial
+			      3		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -13,4 +13,5 @@ $TTL	604800
 @		IN	A	127.0.0.1
 www 	IN	A	10.25.2.104
 portal	IN	CNAME	www
+matheus	IN	CNAME	www
 
