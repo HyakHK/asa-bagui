@@ -1,5 +1,0 @@
-
-
-
-entrar no terminal do docker
-docker exec -it [id] /bin/bash
