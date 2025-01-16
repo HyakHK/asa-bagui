@@ -1,0 +1,26 @@
+services:
+  web:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    container_name: web
+    ports:
+      - 127.0.0.1:80:80
+
+
+  dns:
+    build:
+      context: ./dns
+      dockerfile: Dockerfile
+    container_name: dns
+    ports:
+      - 127.0.0.1:53:53
+    
+
+
+usar arquivo= docker-compose.exe up
+docker compose up -d
+
+adicionais:
+-- build = reconstruir imagens
+-d = run in background
