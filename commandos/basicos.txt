@@ -3,6 +3,9 @@ Passos iniciais apos criação do arquivo "Dockerfile"
 docker build -t (nome da imagem) (local Dockerfile)
 docker build -t <tagname> base_dir
 
+passos iniciais compose
+docker compose --build
+
 
 Imagem para container
 docker run -d --name (nome do container) (nome da imagem)
