@@ -42,6 +42,13 @@ services:
     container_name: asa-mail
     networks:
       - asa-network
+    volumes: 
+      - mail:/var/mail
+
+
+volumes:
+  mail:
+    
 
 
 
